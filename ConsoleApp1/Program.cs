@@ -21,9 +21,9 @@ namespace ConsoleApp1
             p1.LastName = "Андреев";
             p1.Otchestvo = "Андреевич";
             
-            Console.WriteLine(p1.FirstName);
-            Console.WriteLine(p1.LastName);
-            Console.WriteLine(p1.Otchestvo);
+            Console.WriteLine("Имя- "+p1.FirstName);
+            Console.WriteLine("Фамилия- "+p1.LastName);
+            Console.WriteLine("Отчество- "+p1.Otchestvo);
             Console.ReadKey();
         }
     }
